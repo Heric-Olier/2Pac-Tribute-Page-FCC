@@ -387,6 +387,7 @@ hr {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 20px;
 }
 
 .biography__cd-svg {
@@ -434,4 +435,20 @@ hr {
   to {
     transform: rotate(360deg);
   }
+}
+
+.biography__cd-audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+audio {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 30px;
+  border: 3px solid var(--primary-color);
+ 
 }
