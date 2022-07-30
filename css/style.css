@@ -1,8 +1,10 @@
 :root {
-  --background-dark: #090b0f;
+  --background-dark: #0a0a0a;
   --primary-color: #e48e15;
+  --gray-color: #a9a9a9;
   --secondary-white: #f5f5f5;
   --secondary-black: #2c3135;
+  --tertiary-black: #151515;
   --montserrat-font: Montserrat, sans-serif;
 }
 
@@ -11,7 +13,7 @@ html {
 }
 
 body {
-  background-color: var(--background-dark);
+  background-color: var(--tertiary-black);
   font-family: var(--montserrat-font);
 }
 
@@ -64,7 +66,7 @@ nav {
 .nav__menu ul li a {
   text-decoration: none;
   color: var(--background-dark);
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 800;
   transition: all 0.17s ease-in-out;
   text-transform: uppercase;
@@ -88,7 +90,7 @@ nav {
 
 .fab {
   color: var(--background-dark);
-  font-size: 19px;
+  font-size: 18px;
   transition: all 0.19s ease-in-out;
 }
 
@@ -155,3 +157,81 @@ nav {
   width: 365px;
   border: 16px solid var(--secondary-black);
 }
+
+/*! <--------- About Section --------->*/
+
+.biography {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 130px 0;
+    position: relative;
+    background-color: var(--tertiary-black);
+  }
+  
+  .biography__title,
+  .skills__title,
+  .study__title,
+  .projects__title,
+  .contact__title {
+    font-size: 37px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--secondary-white);
+    margin-bottom: 30px;
+  }
+  
+  
+  .biography__text {
+    width: 520px;
+    max-width: 520px;
+  }
+
+  .title__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  
+  .biography__container,
+  .skills__container,
+  .study__container,
+  .projects__container,
+  .contact__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  
+  /* about left */
+  
+  .biography__subtitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--primary-color);
+  }
+  
+  .biography__description {
+    margin-top: 19px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    color: var(--gray-color);
+  }
+  
+  .biography__color a {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 15px;
+    
+    color: var(--primary-color);
+  }
+  

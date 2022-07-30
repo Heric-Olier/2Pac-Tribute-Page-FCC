@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
 
@@ -27,78 +27,110 @@
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <header id="header">
-    <nav>
-      <div class="nav__container">
-        <div class="nav__logo">
-          <a href="index.html">2Pac</a>
-        </div>
-        <!---- Menu ---->
-        <div class="nav__menu">
-          <ul>
-            <li><a href="#home" class="home__section">inicio</a></li>
-            <li>
-              <a href="#personal_life" class="life__section">Vida Personal</a>
-            </li>
-            <li>
-              <a href="#carrer" class="carrer__section">Carrera Musical</a>
-            </li>
-            <li><a href="#legacy" class="legacy__section">Legado</a></li>
-            <li><a href="#death" class="death__section">Muerte</a></li>
-          </ul>
-        </div>
-        <!---- social links ---->
-        <div class="nav__social">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/2pac/" target="_blank">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/2pac/" target="_blank">
-                <i class="fab fa-instagram-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/2pac" target="_blank">
-                <i class="fab fa-twitter-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com/channel/UCMIdeeBjp_60Jv7ROpRxK6Q" target="_blank">
-                <i class="fab fa-youtube-square"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="nav__container">
+          <div class="nav__logo">
+            <a href="index.html">2Pac</a>
+          </div>
+          <!---- Menu ---->
+          <div class="nav__menu">
+            <ul>
+              <li><a href="#home" class="home__section">inicio</a></li>
+              <li>
+                <a href="#biography" class="biography__section">biografia</a>
+              </li>
+              <li>
+                <a href="#personal_life" class="life__section">Vida Personal</a>
+              </li>
+              <li>
+                <a href="#carrer" class="carrer__section">Carrera Musical</a>
+              </li>
+              <li><a href="#legacy" class="legacy__section">Legado</a></li>
+              <li><a href="#death" class="death__section">Muerte</a></li>
+            </ul>
+          </div>
+          <!---- social links ---->
+          <div class="nav__social">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/2pac/" target="_blank">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/2pac/" target="_blank">
+                  <i class="fab fa-instagram-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/2pac" target="_blank">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCMIdeeBjp_60Jv7ROpRxK6Q"
+                  target="_blank"
+                >
+                  <i class="fab fa-youtube-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
 
-        <!---- Burguer Menu ---->
-        <div class="nav__menu-mobile">
-          <span class="line1__bars-menu"></span>
-          <span class="line2__bars-menu"></span>
-          <span class="line3__bars-menu"></span>
+          <!---- Burguer Menu ---->
+          <div class="nav__menu-mobile">
+            <span class="line1__bars-menu"></span>
+            <span class="line2__bars-menu"></span>
+            <span class="line3__bars-menu"></span>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hero">
+        <div class="hero__container">
+          <!---- left side ---->
+          <div class="hero__text">
+            <h1 class="hero__title">Tupac Shakur</h1>
+            <p class="hero__description">
+              Considerado por muchos como uno de los raperos más importantes de
+              todos los tiempos, y más influyentes de la historia del rap.
+            </p>
+          </div>
+          <!---- right side ---->
+          <div class="hero__image">
+            <img src="assets/hero/profile_photo-draw.jpg" alt="hero" />
+          </div>
         </div>
       </div>
-    </nav>
+    </header>
 
-    <div class="hero">
-      <div class="hero__container">
-        <!---- left side ---->
-        <div class="hero__text">
-          <h1 class="hero__title">Tupac Shakur</h1>
-          <p class="hero__description">
-            Considerado por muchos como uno de los raperos más importantes de
-            todos los tiempos, y más influyentes de la historia del rap.
-          </p>
-        </div>
-        <!---- right side ---->
-        <div class="hero__image">
-          <img src="assets/hero/profile_photo-draw.jpg" alt="hero" />
-        </div>
-      </div>
-    </div>
-  </header>
+    <!---- ABOUT SECTION ---->
 
-  <body></body>
+    <main>
+      <section class="biography" id="biography">
+        <div class="title__container">
+          <h1 class="biography__title">Biografia</h1>
+          <h2 class="biography__subtitle">Tupac Shakur</h2>
+        </div>
+        <div class="biography__container">
+          <!---- left side ---->
+          <div class="biography__text">
+            <p class="biography__description">
+                Tupac Shakur (AFI: [ˈtuːpɑːk ʃəˈkʊər] (Nueva York, 16 de junio de 1971-Las Vegas, 13 de septiembre de 1996) también conocido como 2Pac, simplemente Tupac, fue un rapero y actor estadounidense.1​2​ Es considerado por muchos como uno de los raperos más importantes de todos los tiempos, y más influyentes de la historia del rap.3​4​ Gran parte de la obra Shakur se ha destacado por abordar los problemas sociales que plagaban los centros urbanos, por lo cual también es considerado un símbolo de resistencia y activismo contra la desigualdad.
+            </p>
+            <p class="biography__color">
+              <a href="https://es.wikipedia.org/wiki/Tupac_Shakur">Mas acerca de la biografia de Tupac Shakur</a>
+            </p>
+            <!---- right side ---->
+          </div>
+          <div class="biography__image">
+            <img src="assets/biography/about-image-complete.svg" alt="biography" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
