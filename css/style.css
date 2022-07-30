@@ -334,7 +334,16 @@ hr {
 
 .biography__cd-card:hover {
   background-color: var(--secondary-white);
+  border: 1px solid var(--primary-color);
 }
+
+.biography__cd-card:hover .biography__cd-svg,
+.biography__cd-card:hover .biography__cd-title,
+.biography__cd-card:hover .biography__cd-description {
+  color: var(--background-dark);
+  transition: all ease-in-out 0.5s;
+}
+
 
 .biography__cd-content {
   display: flex;
@@ -390,6 +399,7 @@ hr {
   margin-bottom: 20px;
 }
 
+
 .biography__cd-svg {
   -webkit-transition-property: -webkit-transform;
   -webkit-animation-name: rotate;
@@ -441,8 +451,6 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 audio {
@@ -450,5 +458,4 @@ audio {
   height: 40px;
   border-radius: 30px;
   border: 3px solid var(--primary-color);
- 
 }
