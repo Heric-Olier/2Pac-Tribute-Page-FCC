@@ -231,6 +231,10 @@ nav {
   color: var(--gray-color);
 }
 
+.biography__description  strong {
+  font-weight: bold;
+}
+
 .biography__color a {
   font-size: 19px;
   font-weight: 400;
@@ -257,7 +261,6 @@ nav {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 15px solid var(--secondary-black);
 }
 
 .biography__image-card {
@@ -266,12 +269,14 @@ nav {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  transition: all 0.35s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  border: 14px solid var(--secondary-black);
+  transition: all 0.45s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .biography__image-card:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
   transform: scale(1.05);
+  border: 14px solid var(--primary-color);
 }
 
 /*! <--------- Personal Life Section --------->*/
@@ -284,7 +289,14 @@ nav {
   background-color: var(--background-dark);
 }
 
-.life-biography {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
+
+
+/*! <--------- Music Section --------->*/
+
+.music {
+  width: 100%;
+  margin: 0 auto;
+  padding: 130px 0;
+  position: relative;
+  background-color: var(--tertiary-black);
 }
