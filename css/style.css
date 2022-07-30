@@ -15,6 +15,7 @@ html {
 body {
   background-color: var(--tertiary-black);
   font-family: var(--montserrat-font);
+  hyphens: auto;
 }
 
 /*! <--------- Header Nav Section --------->*/
@@ -158,80 +159,108 @@ nav {
   border: 16px solid var(--secondary-black);
 }
 
-/*! <--------- About Section --------->*/
+/*! <--------- Biography Section --------->*/
 
 .biography {
-    width: 100%;
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 130px 0;
-    position: relative;
-    background-color: var(--tertiary-black);
-  }
-  
-  .biography__title,
-  .skills__title,
-  .study__title,
-  .projects__title,
-  .contact__title {
-    font-size: 37px;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: var(--secondary-white);
-    margin-bottom: 30px;
-  }
-  
-  
-  .biography__text {
-    width: 520px;
-    max-width: 520px;
-  }
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 130px 0;
+  position: relative;
+  background-color: var(--tertiary-black);
+}
 
-  .title__container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 1160px;
-    margin: 0 auto;
-  }
-  
-  .biography__container,
-  .skills__container,
-  .study__container,
-  .projects__container,
-  .contact__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 1160px;
-    margin: 0 auto;
-  }
-  
-  /* about left */
-  
-  .biography__subtitle {
-    font-size: 25px;
-    font-weight: 700;
-    color: var(--primary-color);
-  }
-  
-  .biography__description {
-    margin-top: 19px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-    color: var(--gray-color);
-  }
-  
-  .biography__color a {
-    font-size: 19px;
-    font-weight: 400;
-    line-height: 30px;
-    margin-top: 15px;
-    
-    color: var(--primary-color);
-  }
-  
+.biography__title,
+.skills__title,
+.study__title,
+.projects__title,
+.contact__title {
+  font-size: 37px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--secondary-white);
+  margin-bottom: 30px;
+}
+
+.biography__text {
+  width: 100%;
+  max-width: 1160px;
+}
+
+.title__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.biography__container,
+.skills__container,
+.study__container,
+.projects__container,
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.biography__container {
+  flex-direction: column;
+}
+
+/* biography top */
+
+.biography__subtitle {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.biography__description {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: justify;
+  color: var(--gray-color);
+}
+
+.biography__color a {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 15px;
+  padding-bottom: 30px;
+  color: var(--primary-color);
+}
+
+/* biography bottom */
+
+.biography__image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.biography__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 16px solid var(--secondary-black);
+}
+
+.biography__image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
