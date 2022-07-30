@@ -257,7 +257,7 @@ nav {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  border: 16px solid var(--secondary-black);
+  border: 15px solid var(--secondary-black);
 }
 
 .biography__image-card {
