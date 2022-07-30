@@ -371,16 +371,16 @@ hr {
 }
 
 .biography__cd-description {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 14.5px;
+  line-height: 19px;
   text-align: justify;
   color: var(--gray-color);
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .biography__cd-svg {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 85%;
   color: var(--secondary-white);
   fill: var(--primary-color);
   object-fit: cover;
