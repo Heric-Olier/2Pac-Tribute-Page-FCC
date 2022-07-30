@@ -231,7 +231,7 @@ nav {
   color: var(--gray-color);
 }
 
-.biography__description  strong {
+.biography__description strong {
   font-weight: bold;
 }
 
@@ -269,14 +269,14 @@ nav {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  border: 14px solid var(--secondary-black);
+  border: 5px solid var(--secondary-black);
   transition: all 0.45s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 .biography__image-card:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
   transform: scale(1.05);
-  border: 14px solid var(--primary-color);
+  border: 5px solid var(--primary-color);
 }
 
 /*! <--------- Personal Life Section --------->*/
@@ -289,8 +289,6 @@ nav {
   background-color: var(--background-dark);
 }
 
-
-
 /*! <--------- Music Section --------->*/
 
 .music {
@@ -299,4 +297,94 @@ nav {
   padding: 130px 0;
   position: relative;
   background-color: var(--tertiary-black);
+}
+
+hr {
+  width: 100%;
+  border: 1px solid rgba(180, 180, 180, 0.37);
+  margin-top: 50px;
+}
+
+.best__songs {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.cd__card {
+  border: none;
+}
+
+.cd__card:hover {
+  border: none;
+}
+
+.biography__cd-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  border: 1px solid var(--gray-color);
+  transition: all 0.5s;
+  padding: 40px 30px;
+  /* -webkit-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  transform: skewY(-4deg); */
+}
+
+.biography__cd-card:hover {
+  background-color: var(--secondary-white);
+}
+
+.biography__cd-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.biography__cd-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--secondary-white);
+  margin-bottom: 10px;
+}
+
+.biography__cd-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.biography__cd-album {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  padding-bottom: 10px;
+}
+
+.biography__cd-description {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: justify;
+  color: var(--gray-color);
+  margin-bottom: 10px;
+}
+
+.biography__cd-svg {
+  width: 90%;
+  height: 90%;
+  color: var(--secondary-white);
+  fill: var(--primary-color);
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
