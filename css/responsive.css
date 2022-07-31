@@ -1,0 +1,44 @@
+@media screen and (max-width: 1160px) {
+  .nav__container,
+  .hero__container {
+    max-width: 980px;
+  }
+
+  .nav__menu ul li {
+    margin-left: 25px;
+  }
+
+  .nav__menu ul li a {
+    font-size: 14px;
+  }
+
+  .nav__logo a {
+    font-size: 20px;
+  }
+
+  .hero__text {
+    width: 450px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+  }
+
+  .hero__description {
+    font-size: 16px;
+  }
+
+  .hero__image {
+    width: 310px;
+  }
+
+  .biography,
+  .life__container,
+  .music,
+  .biography__image,
+  .banner__bg-image-content,
+  .legacy,
+  .footer {
+    max-width: 980px;
+  }
+}

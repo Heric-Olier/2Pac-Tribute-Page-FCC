@@ -145,7 +145,7 @@ nav {
 /* hero right */
 
 .hero__image {
-  width: 420px;
+  width: 365px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,7 +155,7 @@ nav {
   overflow: hidden;
   object-fit: cover;
   border-radius: 1000px;
-  width: 365px;
+  width: 100%;
   border: 16px solid var(--secondary-black);
 }
 
@@ -289,6 +289,13 @@ nav {
   background-color: var(--background-dark);
 }
 
+.life__container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: var(--background-dark);
+}
+
 /*! <--------- Music Section --------->*/
 
 .music {
@@ -297,6 +304,15 @@ nav {
   padding: 130px 0;
   position: relative;
   background-color: var(--tertiary-black);
+}
+
+.cd__card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 hr {
@@ -451,10 +467,12 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 audio {
   cursor: pointer;
+  width: 100%;
   height: 40px;
   border-radius: 30px;
   border: 3px solid var(--primary-color);
