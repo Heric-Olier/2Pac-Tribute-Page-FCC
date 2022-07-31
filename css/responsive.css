@@ -17,6 +17,17 @@
     font-size: 20px;
   }
 
+  .icon__float-1 {
+    right: 0;
+  }
+
+  .icon__float-2 {
+    left: 0;
+  }
+
+  .microphone__icon {
+    margin-left: 7%;
+  }
   .hero__text {
     width: 450px;
   }
@@ -51,6 +62,12 @@
   }
   .nav__menu ul,
   .nav__social ul {
+    display: none;
+  }
+
+  .icon__float-1,
+  .icon__float-2,
+  .microphone__icon {
     display: none;
   }
 
@@ -93,7 +110,7 @@
   .footer {
     max-width: 768px;
   }
-  
+
   .cd__card-content {
     flex-direction: column;
   }

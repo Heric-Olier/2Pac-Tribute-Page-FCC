@@ -170,11 +170,20 @@ nav {
 
 .biography {
   width: 100%;
-  max-width: 1160px;
+  /* max-width: 1160px; */
   margin: 0 auto;
   padding: 130px 0;
   position: relative;
   background-color: var(--tertiary-black);
+}
+
+.icon__float-1 {
+  position: absolute;
+  top: 4%;
+  right: 8%;
+  z-index: 999;
+  user-select: none;
+  /* transform: translate3d(0px, -88px, 0px); */
 }
 
 .biography__title,
@@ -294,6 +303,14 @@ nav {
   padding: 130px 0;
   position: relative;
   background-color: var(--background-dark);
+}
+
+.icon__float-2 {
+  position: absolute;
+  top: 4%;
+  left: 7%;
+  z-index: 999;
+  user-select: none;
 }
 
 .life__container {
