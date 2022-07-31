@@ -186,11 +186,8 @@ nav {
   /* transform: translate3d(0px, -88px, 0px); */
 }
 
-.biography__title,
-.skills__title,
-.study__title,
-.projects__title,
-.contact__title {
+.biography__title {
+  text-align: center;
   font-size: 37px;
   font-weight: 900;
   text-transform: uppercase;
@@ -213,11 +210,7 @@ nav {
   margin: 0 auto;
 }
 
-.biography__container,
-.skills__container,
-.study__container,
-.projects__container,
-.contact__container {
+.biography__container {
   display: flex;
   justify-content: center;
   align-items: center;

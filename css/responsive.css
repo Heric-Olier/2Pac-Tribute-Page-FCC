@@ -53,6 +53,10 @@
   .footer {
     max-width: 980px;
   }
+
+  .biography__image-card-modal {
+    width: 290px;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -111,7 +115,51 @@
     max-width: 768px;
   }
 
+  .banner__bg-image-title {
+    font-size: 35px;
+  }
+  
+  .banner__bg-image-subtitle {
+    font-size: 20px;
+  }
+
+  .biography__image {
+    max-width: 70%;
+  }
+
+  .biography__container {
+    max-width: 95%;
+  }
+
   .cd__card-content {
     flex-direction: column;
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .biography,
+  .life__container,
+  .music,
+  .biography__image,
+  .legacy,
+  .footer {
+    max-width: 480px;
+  }
+
+  .banner__bg-image-content {
+    max-width: 500px;
+  }
+
+  .cd__card-content {
+    max-width: 80%;
+  }
+
+  .banner__bg-image-title {
+    font-size: 30px;
+  }
+  
+  .banner__bg-image-subtitle {
+    font-size: 18px;
   }
 }
