@@ -572,6 +572,7 @@ audio {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   width: 350px;
   padding: 40px;
   color: var(--secondary-white);
@@ -593,7 +594,7 @@ audio {
 }
 
 .biography__image-card-modal span {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
   color: var(--gray-color);

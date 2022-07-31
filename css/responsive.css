@@ -118,7 +118,7 @@
   .banner__bg-image-title {
     font-size: 35px;
   }
-  
+
   .banner__bg-image-subtitle {
     font-size: 20px;
   }
@@ -134,6 +134,26 @@
   .cd__card-content {
     flex-direction: column;
     max-width: 55%;
+  }
+
+  .biography__image-card-modal {
+    width: 500px;
+  }
+
+  .legacy__modal-1 {
+    bottom: 1200px;
+  }
+
+  .legacy-image:hover .legacy__modal-1 {
+    bottom: 1414px;
+  }
+
+  .legacy__modal-2 {
+    bottom: 450px;
+  }
+
+  .legacy-image:hover .legacy__modal-2 {
+    bottom: 653px;
   }
 }
 
@@ -158,8 +178,24 @@
   .banner__bg-image-title {
     font-size: 30px;
   }
-  
+
   .banner__bg-image-subtitle {
     font-size: 18px;
+  }
+
+  .biography__image-card-modal {
+    width: 446px;
+  }
+
+  .legacy__modal-1 {
+    bottom: 1100px;
+  }
+
+  .legacy-image:hover .legacy__modal-1 {
+    bottom: 1285px;
+  }
+
+  .legacy-image:hover .legacy__modal-2 {
+    bottom: 602px;
   }
 }
