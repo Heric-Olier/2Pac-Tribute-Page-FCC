@@ -1,6 +1,7 @@
 @media screen and (max-width: 1160px) {
   .nav__container,
-  .hero__container {
+  .hero__container,
+  .hero__container-content {
     max-width: 980px;
   }
 
@@ -40,5 +41,60 @@
   .legacy,
   .footer {
     max-width: 980px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  nav {
+    position: fixed;
+    z-index: 999;
+  }
+  .nav__menu ul,
+  .nav__social ul {
+    display: none;
+  }
+
+  .hero__container {
+    height: 100vh;
+  }
+
+  .hero__container-content {
+    flex-direction: column-reverse;
+  }
+
+  .hero__image {
+    width: 260px;
+    padding-bottom: 30px;
+  }
+
+  .hero__text {
+    align-items: center;
+  }
+
+  .hero__title {
+    font-size: 40px;
+  }
+
+  .hero__description {
+    text-align: center;
+  }
+
+  .biography__image {
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+  }
+
+  .biography,
+  .life__container,
+  .music,
+  .biography__image,
+  .banner__bg-image-content,
+  .legacy,
+  .footer {
+    max-width: 768px;
+  }
+  
+  .cd__card-content {
+    flex-direction: column;
   }
 }

@@ -115,6 +115,13 @@ nav {
   align-items: center;
 }
 
+.hero__container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
 /* hero left */
 
 .hero__text {
@@ -373,6 +380,7 @@ hr {
 .biography__cd-title {
   font-size: 22px;
   font-weight: 700;
+  text-align: center;
   color: var(--secondary-white);
   margin-bottom: 10px;
 }
