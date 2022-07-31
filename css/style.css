@@ -518,3 +518,47 @@ audio {
   position: relative;
   background-color: var(--tertiary-black);
 }
+
+.legacy-image:hover {
+  transform: none;
+  border-color: var(--secondary-black);
+}
+
+.legacy-image:hover .biography__image-card-modal {
+  opacity: 1;
+  bottom: 135px;
+  visibility: visible;
+  transition: all 0.5s;
+}
+
+.biography__image-card-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  padding: 40px;
+  color: var(--secondary-white);
+  background-color: var(--background-dark);
+  border-top: 4px solid var(--secondary-black);
+  /* transform: skewY(-5deg); */
+  transition: all ease-in 0.3s;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.biography__image-card-modal h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--secondary-white);
+  margin-bottom: 10px;
+}
+
+.biography__image-card-modal span {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--gray-color);
+}
