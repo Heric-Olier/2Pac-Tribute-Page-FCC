@@ -223,6 +223,11 @@
     font-size: 14px;
   }
 
+  .vector__icons {
+    margin-top: 20px;
+  }
+  
+
   .vector__icons ul li img {
     width: 28px;
     
