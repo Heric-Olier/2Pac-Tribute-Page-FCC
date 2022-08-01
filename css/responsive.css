@@ -100,9 +100,13 @@
     padding: 50px 30px 30px 30px;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    cursor: pointer;
   }
 
+  .nav__menu.active {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+  }
   .nav__close {
     display: block;
     font-size: 22px;
@@ -118,11 +122,6 @@
     cursor: pointer;
   }
 
-  .nav__menu.active {
-    left: 0;
-    opacity: 1;
-    visibility: visible;
-  }
   .burguer__social {
     display: flex;
     align-items: center;
@@ -135,6 +134,7 @@
   }
 
   .burguer__social ul li {
+    font-size: 20px;
     margin: 0 10px;
     border-bottom: none;
   }
@@ -229,6 +229,11 @@
 
   .legacy-image:hover .legacy__modal-2 {
     bottom: 653px;
+  }
+
+  .top__button,
+  .top {
+    display: none;
   }
 }
 

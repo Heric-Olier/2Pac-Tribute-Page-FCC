@@ -55,7 +55,7 @@ nav {
 }
 
 .fa-bars {
- font-size: 35px;
+  font-size: 35px;
 }
 
 .nav__menu ul {
@@ -191,7 +191,6 @@ nav {
 .vector__icons ul li img:hover {
   transform: scale(1.5);
 }
-
 
 /* hero right */
 
@@ -642,6 +641,37 @@ audio {
   font-weight: 500;
   text-transform: uppercase;
   color: var(--primary-color);
+}
+
+/*TOP BUTTON*/
+
+.top__button {
+  display: none;
+  transition: all 0.4s ease;
+}
+
+.top__button.active {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 41px;
+  height: 41px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: var(--background-dark);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.top__button:hover {
+  color: var(--secondary-white);
+  box-shadow: 0px 0px 10px rgba(255, 154, 59, 0.726);
 }
 
 /*! <--------- Footer Section --------->*/

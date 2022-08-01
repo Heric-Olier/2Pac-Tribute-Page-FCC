@@ -21,3 +21,17 @@ navMenuItems.forEach(item => {
     navBurguer.classList.toggle("active");
   });
 });
+
+
+//*! scroll up *//
+let topButton = document.querySelector(".top__button");
+let scrollUp = document.querySelector(".scroll-up");
+
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 100) {
+    topButton.classList.add("active");
+  } else {
+    topButton.classList.remove("active");
+  }
+});
