@@ -50,6 +50,14 @@ nav {
   text-decoration: none;
 }
 
+.nav__burguer {
+  display: none;
+}
+
+.fa-bars {
+ font-size: 35px;
+}
+
 .nav__menu ul {
   display: flex;
   justify-content: center;

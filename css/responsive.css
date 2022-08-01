@@ -69,6 +69,10 @@
     display: none;
   }
 
+  .nav__burguer {
+    display: block;
+  }
+
   .icon__float-1,
   .icon__float-2,
   .microphone__icon {
@@ -214,7 +218,6 @@
     border: 12px solid var(--secondary-black);
   }
 
-
   .hero__title {
     font-size: 39px;
   }
@@ -226,13 +229,10 @@
   .vector__icons {
     margin-top: 20px;
   }
-  
 
   .vector__icons ul li img {
     width: 28px;
-    
   }
-  
 
   .biography,
   .life__container,
