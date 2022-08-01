@@ -146,8 +146,36 @@ nav {
   margin-top: 15px;
   line-height: 30px;
   text-align: start;
-  color: var(--secondary-white);
+  color: var(--gray-color);
 }
+
+.vector__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.vector__icons ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vector__icons ul li {
+  margin: 0 10px;
+}
+
+.vector__icons ul li img {
+  width: 32px;
+  transition: all 0.45s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.vector__icons ul li img:hover {
+  transform: scale(1.5);
+}
+
 
 /* hero right */
 
@@ -597,7 +625,7 @@ audio {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  color: var(--gray-color);
+  color: var(--primary-color);
 }
 
 /*! <--------- Footer Section --------->*/

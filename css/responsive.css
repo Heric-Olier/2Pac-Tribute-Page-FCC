@@ -207,8 +207,13 @@
   }
 
   .hero__image {
-    width: 235px;
+    width: 225px;
   }
+
+  .hero__image img {
+    border: 12px solid var(--secondary-black);
+  }
+
 
   .hero__title {
     font-size: 39px;
@@ -217,6 +222,12 @@
   .hero__description {
     font-size: 14px;
   }
+
+  .vector__icons ul li img {
+    width: 28px;
+    
+  }
+  
 
   .biography,
   .life__container,
@@ -231,8 +242,7 @@
   .life,
   .music,
   .biography__image,
-  .legacy,
-  .footer {
+  .legacy {
     padding: 65px 0;
   }
 
@@ -265,5 +275,55 @@
 
   .legacy__modal-2 {
     bottom: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .biography,
+  .life__container,
+  .music,
+  .biography__image,
+  .legacy,
+  .footer {
+    max-width: 270px;
+  }
+
+  .hero__image {
+    width: 180px;
+  }
+
+  .hero__image img {
+    margin-top: 40px;
+    border: 10px solid var(--secondary-black);
+  }
+
+  .hero__title {
+    font-size: 35px;
+  }
+
+  .biography__image-card-modal {
+    width: 246px;
+    padding: 25px;
+  }
+
+  .legacy__modal-1 {
+    bottom: 700px;
+  }
+
+  .legacy-image:hover .legacy__modal-1 {
+    bottom: 814px;
+  }
+
+  .legacy__modal-2 {
+    bottom: 300px;
+  }
+
+  .legacy-image:hover .legacy__modal-2 {
+    bottom: 414px;
+  }
+
+  .footer {
+    text-align: center;
+    line-height: 20px;
   }
 }
