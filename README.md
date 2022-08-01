@@ -3,7 +3,7 @@
 ## Working in progress...
 ---
 
-![](https://i.imgur.com/befwNdq.png)
+![](https://i.imgur.com/6yWhV9k.jpg)
  
  ---
 
