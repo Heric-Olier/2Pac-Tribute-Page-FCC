@@ -123,7 +123,7 @@ nav {
 
 .fab {
   color: var(--background-dark);
-  font-size: 18px;
+  font-size: 25px;
   transition: all 0.19s ease-in-out;
 }
 

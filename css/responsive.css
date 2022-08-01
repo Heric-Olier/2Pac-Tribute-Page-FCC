@@ -123,6 +123,10 @@
     cursor: pointer;
   }
 
+  .nav__close:hover {
+    background-color: #e48e15;
+  }
+
   .burguer__social {
     display: flex;
     align-items: center;
