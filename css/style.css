@@ -86,6 +86,10 @@ nav {
   text-decoration: line-through;
 }
 
+.nav__close {
+  display: none;
+}
+
 .nav__social ul {
   display: flex;
   justify-content: center;
@@ -95,6 +99,10 @@ nav {
 .nav__social ul li {
   list-style: none;
   margin-left: 18px;
+}
+
+.burguer__social {
+  display: none;
 }
 
 .fab {
