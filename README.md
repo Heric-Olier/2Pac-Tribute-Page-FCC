@@ -7,6 +7,6 @@
  
  ---
 
- ## [ir a la pagina](https://heric-olier.github.io/2Pac-Tribute-Page-FCC/) 👈
+ ## [ir a la pagina](https://2pac-tribute-page-fcc.netlify.app/) 👈
 
 
