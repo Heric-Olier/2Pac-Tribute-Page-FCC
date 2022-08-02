@@ -16,12 +16,14 @@ body {
   background-color: var(--tertiary-black);
   font-family: var(--montserrat-font);
   hyphens: auto;
+  height: 100vh;
 }
 
 /*! <--------- Header Nav Section --------->*/
 
 header {
-  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
   background-color: var(--background-dark);
 }
 
@@ -114,12 +116,14 @@ nav {
 /*! <--------- Main - Index section --------->*/
 
 .hero {
+  min-height: 100vh;
+  overflow: hidden;
   width: 100%;
 }
 
 .hero__container {
   width: 90%;
-  height: 90vh;
+  min-height: 100vh;
   max-width: 1160px;
   margin: auto;
   display: flex;
@@ -131,6 +135,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 100px 0;
   width: 100%;
 }
 
