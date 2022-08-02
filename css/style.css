@@ -641,18 +641,13 @@ audio {
 /*TOP BUTTON*/
 
 .top__button {
-  display: none;
-  transform: scale(0);
-  transition: all 0.4s ease-in-out;
-}
-
-.top__button.active {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: -80px;
   z-index: 999;
   font-size: 25px;
   text-align: center;
+  transform: rotate(180deg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -661,9 +656,13 @@ audio {
   border-radius: 5px;
   background-color: var(--primary-color);
   color: var(--background-dark);
-  transform: scale(1);
   cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.top__button.active {
+  right: 20px;
+  transform: rotate(0deg);
 }
 
 .top__button:hover {
