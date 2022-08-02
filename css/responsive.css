@@ -100,7 +100,7 @@
   .nav__menu {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 280px;
     height: 100%;
     background-color: #f5f5f5;
     position: fixed;
@@ -118,21 +118,6 @@
     left: 0;
     opacity: 1;
     visibility: visible;
-  }
-
-  .nav__close {
-    display: block;
-    font-size: 22px;
-    width: 30px;
-    height: 30px;
-    border: 2px solid #0a0a0a;
-    border-radius: 2px;
-    text-align: center;
-    line-height: 27px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
   }
 
   .nav__close:hover {
@@ -371,9 +356,8 @@
   .footer {
     max-width: 270px;
   }
-
-  .nav__close {
-    right: 30px;
+  .nav__menu {
+    width: 220px;
   }
 
   .hero__image {
