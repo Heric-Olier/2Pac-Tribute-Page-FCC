@@ -3,6 +3,10 @@ let navMenu = document.querySelector(".nav__menu");
 let navMenuItems = document.querySelectorAll(".nav__menu ul li");
 let navClose = document.querySelector(".nav__close");
 let offCanvasDelay = document.querySelector(".off__canvas-overlay");
+let navBurguerLine1 = document.querySelector(".nav__burguer-line-1");
+let navBurguerLine2 = document.querySelector(".nav__burguer-line-2");
+let navBurguerLine3 = document.querySelector(".nav__burguer-line-3");
+
 
 //*!--------------- Burguer Menu ---------------*//
 
@@ -10,22 +14,28 @@ let offCanvasDelay = document.querySelector(".off__canvas-overlay");
 
 navBurguer.addEventListener("click", () => {
   navMenu.classList.toggle("active");
+  navBurguerLine1.classList.toggle("active");
+  navBurguerLine2.classList.toggle("active");
+  navBurguerLine3.classList.toggle("active");
   navBurguer.classList.toggle("active");
   offCanvasDelay.classList.toggle("active");
 });
 
-// El menú se cierra al hacer clicck en el botón de cerrar
+// // El menú se cierra al hacer clicck en el botón de cerrar
 
-navClose.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
-  navBurguer.classList.toggle("active");
-  offCanvasDelay.classList.toggle("active");
-});
+// navClose.addEventListener("click", () => {
+//   navMenu.classList.toggle("active");
+//   navBurguer.classList.toggle("active");
+//   offCanvasDelay.classList.toggle("active");
+// });
 
 // El menú se cierra al hacer click fuera del mismo
 
 offCanvasDelay.addEventListener("click", () => {
   navMenu.classList.toggle("active");
+  navBurguerLine1.classList.toggle("active");
+  navBurguerLine2.classList.toggle("active");
+  navBurguerLine3.classList.toggle("active");
   navBurguer.classList.toggle("active");
   offCanvasDelay.classList.toggle("active");
 });
@@ -35,6 +45,9 @@ offCanvasDelay.addEventListener("click", () => {
 navMenuItems.forEach((item) => {
   item.addEventListener("click", () => {
     navMenu.classList.toggle("active");
+    navBurguerLine1.classList.toggle("active");
+    navBurguerLine2.classList.toggle("active");
+    navBurguerLine3.classList.toggle("active");
     navBurguer.classList.toggle("active");
     offCanvasDelay.classList.toggle("active");
   });

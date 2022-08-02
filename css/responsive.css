@@ -53,10 +53,6 @@
   .footer {
     max-width: 980px;
   }
-
-  .biography__image-card-modal {
-    width: 290px;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -161,8 +157,38 @@
   }
 
   .nav__burguer {
+    width: 35px;
     display: block;
     cursor: pointer;
+  }
+
+  .nav__burguer-line-1,
+  .nav__burguer-line-2,
+  .nav__burguer-line-3 {
+    display: block;
+    background-color: #0a0a0a;
+    content: "";
+    height: 6px;
+    border-radius: 3px;
+    margin: 4px 0;
+    transition: all 0.5s;
+  }
+
+  .nav__burguer-line-1.active {
+    transform: translatey(8px) rotate(135deg);
+  }
+
+  .nav__burguer-line-2.active {
+    transform: scale(0);
+  }
+
+  .nav__burguer-line-3.active {
+    transform: translatey(-12px) rotate(-135deg);
+  }
+
+
+  .fa-bars {
+    font-size: 35px;
   }
 
   .icon__float-1,
@@ -237,22 +263,6 @@
     width: 500px;
   }
 
-  .legacy__modal-1 {
-    bottom: 1200px;
-  }
-
-  .legacy-image:hover .legacy__modal-1 {
-    bottom: 1414px;
-  }
-
-  .legacy__modal-2 {
-    bottom: 450px;
-  }
-
-  .legacy-image:hover .legacy__modal-2 {
-    bottom: 653px;
-  }
-
   .top__button,
   .top {
     display: none;
@@ -287,18 +297,6 @@
 
   .biography__image-card-modal {
     width: 446px;
-  }
-
-  .legacy__modal-1 {
-    bottom: 1100px;
-  }
-
-  .legacy-image:hover .legacy__modal-1 {
-    bottom: 1285px;
-  }
-
-  .legacy-image:hover .legacy__modal-2 {
-    bottom: 601px;
   }
 }
 
@@ -362,22 +360,6 @@
   .biography__image-card-modal {
     width: 333px;
   }
-
-  .legacy__modal-1 {
-    bottom: 900px;
-  }
-
-  .legacy-image:hover .legacy__modal-1 {
-    bottom: 1015px;
-  }
-
-  .legacy-image:hover .legacy__modal-2 {
-    bottom: 494px;
-  }
-
-  .legacy__modal-2 {
-    bottom: 350px;
-  }
 }
 
 @media screen and (max-width: 360px) {
@@ -410,22 +392,6 @@
   .biography__image-card-modal {
     width: 246px;
     padding: 25px;
-  }
-
-  .legacy__modal-1 {
-    bottom: 700px;
-  }
-
-  .legacy-image:hover .legacy__modal-1 {
-    bottom: 814px;
-  }
-
-  .legacy__modal-2 {
-    bottom: 300px;
-  }
-
-  .legacy-image:hover .legacy__modal-2 {
-    bottom: 414px;
   }
 
   .footer {

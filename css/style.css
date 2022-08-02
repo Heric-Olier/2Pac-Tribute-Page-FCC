@@ -54,10 +54,6 @@ nav {
   display: none;
 }
 
-.fa-bars {
-  font-size: 35px;
-}
-
 .nav__menu ul {
   display: flex;
   justify-content: center;
@@ -298,6 +294,24 @@ nav {
 
 /* biography bottom */
 
+.biography__image-card {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid var(--secondary-black);
+  transition: all 0.45s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.biography__image-card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+  transform: scale(1.05);
+  border: 5px solid var(--primary-color);
+}
+
 .biography__image {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -313,22 +327,6 @@ nav {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.biography__image-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  border: 5px solid var(--secondary-black);
-  transition: all 0.45s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-}
-
-.biography__image-card:hover {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
-  transform: scale(1.05);
-  border: 5px solid var(--primary-color);
 }
 
 /*! <--------- Personal Life Section --------->*/
@@ -605,9 +603,8 @@ audio {
 
 .legacy-image:hover .biography__image-card-modal {
   opacity: 1;
-  bottom: 135px;
-  visibility: visible;
-  transition: all 0.5s;
+  bottom: 0;
+  transition: all 0.3s;
 }
 
 .biography__image-card-modal {
@@ -624,9 +621,7 @@ audio {
   /* transform: skewY(-5deg); */
   transition: all ease-in 0.3s;
   position: absolute;
-  bottom: 0;
-  opacity: 0;
-  visibility: hidden;
+  bottom: -130px;
 }
 
 .biography__image-card-modal h4 {
