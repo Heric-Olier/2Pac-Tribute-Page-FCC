@@ -125,6 +125,7 @@ nav {
   width: 90%;
   min-height: 100vh;
   max-width: 1160px;
+  padding: 130px 45px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -135,7 +136,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 0;
+  /* padding: 100px 0; */
   width: 100%;
 }
 
@@ -145,6 +146,7 @@ nav {
   width: 520px;
   max-width: 520px;
   display: flex;
+  transition: all 0.35s ease-in-out;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -198,6 +200,7 @@ nav {
 .hero__image {
   width: 365px;
   display: flex;
+  transition: all 0.35s ease-in-out;
   justify-content: center;
   align-items: center;
 }
@@ -216,16 +219,19 @@ nav {
   width: 100%;
   /* max-width: 1160px; */
   margin: 0 auto;
-  padding: 130px 0;
+  padding: 130px 45px;
   position: relative;
   background-color: var(--tertiary-black);
+  transition: all 0.35s ease-in-out;
 }
 
 .icon__float-1 {
   position: absolute;
   top: 4%;
   right: 8%;
+  padding: 0 25px;
   z-index: 999;
+  transition: all 0.4s ease-in-out;
   user-select: none;
   /* transform: translate3d(0px, -88px, 0px); */
 }
@@ -323,6 +329,7 @@ nav {
   grid-gap: 40px;
   margin: 0 auto;
   padding-top: 50px;
+  transition: all 0.35s ease-in-out;
 }
 
 .biography__image img {
@@ -339,15 +346,17 @@ nav {
 .life {
   width: 100%;
   margin: 0 auto;
-  padding: 130px 0;
   position: relative;
   background-color: var(--background-dark);
+  transition: all 0.35s ease-in-out;
 }
 
 .icon__float-2 {
   position: absolute;
   top: 4%;
   left: 7%;
+  padding: 0 25px;
+  transition: all 0.4s ease-in-out;
   z-index: 999;
   user-select: none;
 }
@@ -355,6 +364,7 @@ nav {
 .life__container {
   width: 100%;
   margin: 0 auto;
+  padding: 130px 45px;
   position: relative;
   background-color: var(--background-dark);
 }
@@ -364,15 +374,17 @@ nav {
 .music {
   width: 100%;
   margin: 0 auto;
-  padding: 130px 0;
+  padding: 130px 45px;
   position: relative;
   background-color: var(--tertiary-black);
+  transition: all 0.35s ease-in-out;
 }
 
 .cd__card-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all 0.35s ease-in-out;
   width: 100%;
   margin: 0 auto;
   padding-top: 50px;
@@ -548,8 +560,10 @@ audio {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 45px;
   height: 550px;
   object-fit: cover;
+  transition: all 0.35s ease-in-out;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -596,9 +610,10 @@ audio {
 .legacy {
   width: 100%;
   margin: 0 auto;
-  padding: 130px 0;
+  padding: 130px 45px;
   position: relative;
   background-color: var(--tertiary-black);
+  transition: all 0.35s ease-in-out;
 }
 
 .legacy-image:hover {
@@ -618,7 +633,7 @@ audio {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 350px;
+  width: 100%;
   padding: 40px;
   color: var(--secondary-white);
   background-color: var(--background-dark);
@@ -685,6 +700,7 @@ audio {
   position: relative;
   background-color: var(--tertiary-black);
   border-top: 1px solid var(--secondary-black);
+  transition: all 0.35s ease-in-out;
 }
 
 .footer__text {

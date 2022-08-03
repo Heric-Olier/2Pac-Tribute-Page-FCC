@@ -43,16 +43,6 @@
   .hero__image {
     width: 310px;
   }
-
-  .biography,
-  .life__container,
-  .music,
-  .biography__image,
-  .banner__bg-image-content,
-  .legacy,
-  .footer {
-    max-width: 980px;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -164,13 +154,12 @@
   }
 
   .nav__burguer-line-2.active {
-    transform: scale(0);
+    transform: translate(100px, -2px);
   }
 
   .nav__burguer-line-3.active {
     transform: translatey(-12px) rotate(-135deg);
   }
-
 
   .fa-bars {
     font-size: 35px;
@@ -218,9 +207,14 @@
   .music,
   .biography__image,
   .banner__bg-image-content,
-  .legacy,
-  .footer {
-    max-width: 768px;
+  .legacy {
+    max-width: 800px;
+    padding: 130px 35px;
+  }
+
+  .biography__image {
+    padding: 0 25px;
+    padding-top: 40px;
   }
 
   .banner__bg-image-title {
@@ -231,21 +225,9 @@
     font-size: 20px;
   }
 
-  .biography__image {
-    max-width: 70%;
-  }
-
-  .biography__container {
-    max-width: 95%;
-  }
-
   .cd__card-content {
     flex-direction: column;
     max-width: 55%;
-  }
-
-  .biography__image-card-modal {
-    width: 500px;
   }
 
   .top__button,
@@ -255,21 +237,21 @@
 }
 
 @media screen and (max-width: 768px) {
-  .biography,
+  /* .biography,
   .life__container,
   .music,
   .biography__image,
   .legacy,
   .footer {
     max-width: 480px;
-  }
+  } */
 
-  .banner__bg-image-content {
+  /* .banner__bg-image-content {
     max-width: 500px;
-  }
+  } */
 
   .cd__card-content {
-    max-width: 80%;
+    max-width: 85%;
   }
 
   .banner__bg-image-title {
@@ -279,13 +261,13 @@
   .banner__bg-image-subtitle {
     font-size: 18px;
   }
-
-  .biography__image-card-modal {
-    width: 446px;
-  }
 }
 
 @media screen and (max-width: 480px) {
+  .hero__container {
+    padding: 130px 0;
+  }
+
   .hero__text {
     width: 95%;
   }
@@ -306,6 +288,10 @@
     font-size: 14px;
   }
 
+  .biography__image {
+    padding: 40px 0;
+  }
+
   .vector__icons {
     margin-top: 20px;
   }
@@ -314,21 +300,14 @@
     width: 28px;
   }
 
-  .biography,
-  .life__container,
-  .music,
-  .biography__image,
-  .legacy,
-  .footer {
-    max-width: 360px;
+  .cd__card-content {
+    max-width: 100%;
   }
 
   .biography,
-  .life,
   .music,
-  .biography__image,
   .legacy {
-    padding: 65px 0;
+    padding: 65px 30px;
   }
 
   .biography__description {
@@ -336,32 +315,23 @@
     line-height: 30px;
   }
 
-  .banner__bg-image-title {
-    padding: 0 20px;
-    font-size: 25px;
-    line-height: 35px;
+  .banner__bg-image {
+    padding: 65px 30px;
   }
 
-  .biography__image-card-modal {
-    width: 333px;
+  .banner__bg-image-content {
+    padding: 0;
+  }
+
+  .banner__bg-image-title {
+    font-size: 25px;
+    line-height: 35px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  .biography,
-  .life__container,
-  .music,
-  .biography__image,
-  .legacy,
-  .footer {
-    max-width: 270px;
-  }
   .nav__menu {
     width: 220px;
-  }
-
-  .hero__image {
-    width: 180px;
   }
 
   .hero__image img {
@@ -373,13 +343,12 @@
     font-size: 35px;
   }
 
-  .biography__image-card-modal {
-    width: 246px;
-    padding: 25px;
-  }
-
   .footer {
     text-align: center;
     line-height: 20px;
+  }
+
+  .biography__image-card-modal {
+    padding: 20px;
   }
 }
