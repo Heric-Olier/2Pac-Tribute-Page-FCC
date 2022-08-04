@@ -238,18 +238,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  /* .biography,
-  .life__container,
-  .music,
-  .biography__image,
-  .legacy,
-  .footer {
-    max-width: 480px;
-  } */
-
-  /* .banner__bg-image-content {
-    max-width: 500px;
-  } */
 
   .cd__card-content {
     max-width: 85%;
