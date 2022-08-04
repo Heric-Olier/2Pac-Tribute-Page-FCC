@@ -57,3 +57,25 @@ window.addEventListener("scroll", () => {
     topButton.classList.remove("active");
   }
 });
+
+// mover objetos con el scroll
+
+//*!--------------- Parallax ---------------*//
+let iconParallaxOne = document.querySelector(".icon__float-1");
+let iconParallaxTwo = document.querySelector(".icon__float-2");
+let iconParallaxThree = document.querySelector(".icon__float-3");
+
+//movemos el objeto suavemente con el scroll
+window.addEventListener("scroll", () => {
+  let scrollPosition = window.scrollY;
+  // iconParallaxOne.style.top = scrollPosition * -0.5 + "px";
+
+  if (scrollPosition) {
+    iconParallaxOne.style =
+      "transform: translate3d(0px, " + scrollPosition * -0.12 + "px, 0px)";
+    iconParallaxTwo.style =
+      "transform: translate3d(0px, " + scrollPosition * -0.06 + "px, 0px)";
+    iconParallaxThree.style =
+      "transform: translate3d(0px, " + scrollPosition * -0.045 + "px, 0px)";
+  }
+});

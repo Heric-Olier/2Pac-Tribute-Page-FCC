@@ -181,10 +181,10 @@
 
   .hero__image {
     width: 260px;
-    padding-bottom: 30px;
   }
 
   .hero__text {
+    padding-top: 30px;
     align-items: center;
   }
 
@@ -276,7 +276,7 @@
     width: 225px;
   }
 
-  .hero__image img {
+  .hero__image {
     border: 12px solid var(--secondary-black);
   }
 
@@ -334,8 +334,7 @@
     width: 220px;
   }
 
-  .hero__image img {
-    margin-top: 40px;
+  .hero__image {
     border: 10px solid var(--secondary-black);
   }
 
