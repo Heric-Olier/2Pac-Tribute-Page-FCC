@@ -1,7 +1,6 @@
 let navBurguer = document.querySelector(".nav__burguer");
 let navMenu = document.querySelector(".nav__menu");
 let navMenuItems = document.querySelectorAll(".nav__menu ul li");
-let navClose = document.querySelector(".nav__close");
 let offCanvasDelay = document.querySelector(".off__canvas-overlay");
 let navBurguerLine1 = document.querySelector(".nav__burguer-line-1");
 let navBurguerLine2 = document.querySelector(".nav__burguer-line-2");
@@ -61,6 +60,7 @@ window.addEventListener("scroll", () => {
 // mover objetos con el scroll
 
 //*!--------------- Parallax ---------------*//
+
 let iconParallaxOne = document.querySelector(".icon__float-1");
 let iconParallaxTwo = document.querySelector(".icon__float-2");
 let iconParallaxThree = document.querySelector(".icon__float-3");
@@ -72,7 +72,7 @@ window.addEventListener("scroll", () => {
 
   if (scrollPosition) {
     iconParallaxOne.style =
-      "transform: translate3d(0px, " + scrollPosition * -0.12 + "px, 0px)";
+      "transform: translate3d(0px, " + scrollPosition * -0.17 + "px, 0px)";
     iconParallaxTwo.style =
       "transform: translate3d(0px, " + scrollPosition * -0.06 + "px, 0px)";
     iconParallaxThree.style =
